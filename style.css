@@ -7,16 +7,39 @@ body {
   background: #333;
 }
 
-img {
-  width: 280px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center;
-}
-
 .container {
   width: 1200px;
   margin: 20px auto;
   /* Divides content in 4 columns */
   columns: 4;
+  column-gap: 40px;
+}
+
+.container .box {
+  width: 100%;
+  /* top, right-left, bottom */
+  margin: 0 0 20px;
+  padding: 10px;
+  background: #fff;
+  overflow: hidden;
+  /* Prevents half content from appearing */
+  break-inside: avoid;
+}
+
+.container .box img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container .box h2 {
+  margin: 10px 0 0 ;
+  padding: 0;
+  font-size: 20px;
+}
+
+.container .box p {
+  margin: 0 ;
+  padding: 0 0 10px;
+  font-size: 16px;
 }
