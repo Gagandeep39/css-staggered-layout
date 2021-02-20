@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+h1 {
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: #333;
+  /* background: #333; */
 }
 
 .container {
@@ -24,6 +28,7 @@ body {
   overflow: hidden;
   /* Prevents half content from appearing */
   break-inside: avoid;
+  box-shadow: 1px 1px 5px rgba(172, 172, 172, 0.637);
 }
 
 .container .box img {
