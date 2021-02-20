@@ -6,4 +6,4 @@
 
 ## Deployment
 
-- Coming Up
+- <https://gagandeep39.github.io/css-staggered-layout/>
